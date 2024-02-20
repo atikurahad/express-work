@@ -9,18 +9,18 @@
 //   console.log("Server is runnig");
 // });
 
-const express = require("express");
-app = express();
+// const express = require("express");
+// app = express();
 
-app.get("/", function (req, res) {
-  res.send("heloo. Express");
-});
-app.get("/contact", function (req, res) {
-  res.send("heloo. Contact");
-});
+// app.get("/", function (req, res) {
+//   res.send("heloo. Express");
+// });
+// app.get("/contact", function (req, res) {
+//   res.send("heloo. Contact");
+// });
 
-const port = 5000;
+// const port = 5000;
 
-app.listen(port, function () {
-  console.log(`Server running on port ${port} 🔥`);
-});
+// app.listen(port, function () {
+//   console.log(`Server running on port ${port} 🔥`);
+// });
